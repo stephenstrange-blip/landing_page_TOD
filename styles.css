@@ -116,7 +116,33 @@ img {
 figcaption {
     text-align: center;
 }
+.middle-container-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.lower-middle-content {
+    width: fit-content;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #1F2937;
+    
 
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    border: 2px dotted #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    border: 2px dotted #1F2937;
+}
 
 
 
