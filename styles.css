@@ -95,11 +95,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 400px;
     /* border: 2px solid black; */
 }
 .random-info {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 36px;
     /* border: 2px solid black; */
     margin: 2%;
 }
@@ -108,7 +109,7 @@
     /* border: 2px solid black; */
     margin: 1.5%;
     /* gap: 5%; */
-    width: 80%;
+    width: 50%;
     /* flex-wrap: wrap; */
     justify-content: space-around;
 }
@@ -127,8 +128,8 @@ figcaption {
     background-color: #E5E7EB;
 }
 .lower-middle-content {
-    width: fit-content;
-    height: 250px;
+    /* width: fit-content; */
+    height: 400px;
     max-width: 700px;
     display: flex;
     flex-wrap: wrap;
