@@ -64,6 +64,12 @@
     /* border: 2px solid #F9FAF8; */
     flex: 1;
 }
+
+.placeholder {
+    border: none;
+    min-width: 0;
+    min-height: 0;
+}
 .awesome-website {
     font-size: 48px;
     font-weight:900;
