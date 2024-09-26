@@ -83,6 +83,10 @@
     padding: .5%;
     margin: .5%;
 }
+.signup:hover{
+    background-color: #1558c4;
+    border: 1px solid #083c77;
+}
 .bot-header-right {
     /* border: 2px solid #F9FAF8; */
     flex: 1;
